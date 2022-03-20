@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CCIS Brew Co.</title>
+
+    <!-- file link for custom CSS  -->
+    <link rel="stylesheet" href="style.css" />
+
+   <!-- font awesome cdn link for icons used -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  </head>
+
+  <body>
+
+      <!-- Side Nav bar -->
+      <nav class="navbar">
+         <ul>
+            <li>
+               <a href="#home" class="dot active" data-scroll="home">
+                  <span>Home</span>
+               </a>
+            </li>
+            <li>
+               <a href="#about" class="dot" data-scroll="about">
+                  <span>About</span>
+               </a>
+            </li>
+            <li>
+               <a href="#menu" class="dot" data-scroll="menu">
+                  <span>Menu</span>
+               </a>
+            </li>
+            <li>
+               <a href="#reviews" class="dot" data-scroll="reviews">
+                  <span>Reviews</span>
+               </a>
+            </li>
+            <li>
+               <a href="#order" class="dot" data-scroll="order">
+                  <span>Order</span>
+               </a>
+            </li>
+         </ul>
+      </nav>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="circle"></div>
+
+      <header>
+        <a href="#" class="logo"><img src="./images/logo.png" alt=""></a>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#order">Order</a></li>
+        </ul>
+
+        <!-- Dark mode switch -->
+        <div class="switch">
+          <div class="flicker"></div>
+          <div class="moon"></div>
+        </div>
+
+      </header>
+
+      <div class="content">
+        <div class="textbox">
+          <h4>Love is in the air,<br>and it smells<br>like <span>Coffee</span></h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repellendus hic laborum rerum praesentium sed, ea libero,
+            nostrum odio, magni doloribus assumenda! Voluptates
+            perferendis natus, exercitationem animi nemo quisquam
+            commodi fugiat!</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div class="imgBox">
+          <img src="./images/home-img-1.png" alt="" class="brew">
+        </div>
+      </div>
+
+      <ul class="thumb">
+        <li><img src="./images/thumb1.png" alt="" onclick="imgSlider('./images/home-img-1.png')"></li>
+        <li><img src="./images/thumb2.png" alt="" onclick="imgSlider('./images/home-img-2.png')"></li>
+        <li><img src="./images/thumb3.png" alt="" onclick="imgSlider('./images/home-img-3.png')"></li>
+      </ul>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+    <section class="about" id="about">
+
+      <h1 class="heading">about us <span>reason to choose us</span></h1>
+    
+      <div class="row">
+
+        <div class="image">
+          <figure>
+            <img src="images/about-img.jpg" alt="" />
+          </figure>
+        </div>
+
+        <div class="content">
+          <h3>what makes our coffee special?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa veritatis
+            officiis ex voluptatem? Nihil sit et ea, modi rem necessitatibus tempora.
+            Maiores odit tempora nisi cum vitae aperiam blanditiis exercitationem 
+            culpa corrupti ipsum, veritatis, error eligendi in qui voluptas quo natus
+            quam quasi rem! Ipsa ut repudiandae vel ab sed optio, suscipit tenetur
+            eius recusandae id minima aliquid officiis. Voluptatum, sit? Distinctio
+             porro illum natus laboriosam odio sint tenetur maiores?
+          </p>
+
+       </div>
+
+      </div>
+
+    </section>
+    <!-- about section ends -->
+
+    <!-- Menu section starts  -->  
+    
+    <section class="menu" id="menu">
+
+      <h1 class="heading">our menu <span>brewed at its finest</span></h1>
+   
+      <div class="swiper menu-slider">
+   
+         <div class="swiper-wrapper">
+   
+            <div class="swiper-slide slide">
+               <h3 class="title">Coffee</h3>
+               <div class="box-container">
+                  <div class="box">
+                     <div class="info">
+                        <h3>Americano</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                     </div>
+                     <div class="price">₱199.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Cappucino</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                     </div>
+                     <div class="price">₱199.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Machiato</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                     </div>
+                     <div class="price">₱199.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Espresso</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                     </div>
+                     <div class="price">₱199.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Mocha</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                     </div>
+                     <div class="price">₱199.99</div>
+                  </div>
+
+   
+            <div class="swiper-slide slide">
+               <h3 class="title">Tea and Chocolate</h3>
+               <div class="box-container">
+                  <div class="box">
+                     <div class="info">
+                        <h3>Hot Chocolate</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                     </div>
+                     <div class="price">₱199.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Cold Brew</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                     </div>
+                     <div class="price">₱199.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Vanilla tea</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                     </div>
+                     <div class="price">₱199.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Green tea</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                     </div>
+                     <div class="price">₱199.99</div>
+                  </div>
+               </div>
+            </div>
+   
+            <div class="swiper-slide slide">
+               <h3 class="title">Deserts</h3>
+               <div class="box-container">
+                  <div class="box">
+                     <div class="info">
+                        <h3>Cheesecake</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                     </div>
+                     <div class="price">₱199.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Doughnut</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                     </div>
+                     <div class="price">₱199.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Croissant</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                     </div>
+                     <div class="price">₱199.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Baggels</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                     </div>
+                     <div class="price">₱199.99</div>
+                  </div>
+                  <div class="box">
+                     <div class="info">
+                        <h3>Cinnamon rolls</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                     </div>
+                     <div class="price">₱199.99</div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+   
+         
+   
+      </div>
+   
+   </section>
+
+    <!-- Menu section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="reviews">
+
+      <h1 class="heading">reviews <span>what our customer says</span></h1>
+
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="images/pic-1.jpg" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+              aliquid eveniet qui, similique aut sit.
+            </p>
+            <h3>John Doe</h3>
+            <span>satisfied customer</span>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="images/pic-2.jpg" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam animi
+              pariatur, tempora ab harum quaerat, sit maxime, libero ullam optio 
+              iusto expedita quisquam commodi aut. Iure commodi minus eius quia?
+            </p>
+            <h3>Jane Doe</h3>
+            <span>satisfied customer</span>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="images/pic-3.jpg" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi 
+              excepturi dolore officiis saepe impedit deleniti perferendis.
+
+            </p>
+            <h3>john Doe</h3>
+            <span>satisfied customer</span>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="images/pic-4.jpg" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+            </p>
+            <h3>Jane Doe</h3>
+            <span>satisfied customer</span>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+
+  </section>
+
+  <!-- review section ends -->
+
+  <!-- order section starts  -->
+
+   <section class="order" id="order">
+      <h1 class="heading">Order now!<span>Fast home delivery</span></h1>
+
+
+      <form action="">
+         <div class="box-container">
+            <div class="box">
+               <div class="inputBox">
+                  <span>full name</span>
+                  <input type="text" placeholder="enter your name">
+               </div>
+               <div class="inputBox">
+                  <span>Drinks/Desert name</span>
+                  <input type="text" placeholder="Drinks/Desert You want">
+               </div>
+               <div class="inputBox">
+                  <span>order details</span>
+                  <input type="text" placeholder="specifics with food">
+               </div>
+               <div class="inputBox">
+                  <span>your address</span>
+                  <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+               </div>
+            </div>
+            <div class="box">
+               <div class="inputBox">
+                  <span>number</span>
+                  <input type="number" placeholder="enter your phone number">
+               </div>
+               <div class="inputBox">
+                  <span>how much</span>
+                  <input type="number" placeholder="how many you want">
+               </div>
+               <div class="inputBox">
+                  <span>when you want</span>
+                  <input type="datetime-local">
+               </div>
+               <div class="inputBox">
+                  <span>our address</span>
+                  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7721.996605093357!2d121.00184392153812!3d14.599172459213348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9dd976ededf%3A0xbaaa357c5585b8c2!2sPolytechnic%20University%20of%20the%20Philippines!5e0!3m2!1sen!2sph!4v1647771734401!5m2!1sen!2sph" allowfullscreen="" loading="lazy"></iframe>
+               </div>
+            </div>
+         </div>
+         <input type="submit" value="order now" class="btn">
+      </form>
+      
+   </section>
+
+   <!-- order section ends -->
+
+  <!-- footer section starts  -->
+
+   <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>our branches</h3>
+          <a href="#"> <i class="fas fa-coffee"></i> Metro Manila </a>
+          <a href="#"> <i class="fas fa-coffee"></i> Luzon </a>
+          <a href="#"> <i class="fas fa-coffee"></i> Visayas </a>
+          <a href="#"> <i class="fas fa-coffee"></i> Mindanao </a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"> <i class="fas fa-star"></i> home </a>
+          <a href="#about"> <i class="fas fa-star"></i> about </a>
+          <a href="#menu"> <i class="fas fa-star"></i> menu </a>
+          <a href="#reviews"> <i class="fas fa-star"></i> reviews </a>
+          <a href="#order"> <i class="fas fa-star"></class></i> order </a>
+        </div>
+
+
+
+        <div class="box">
+            <h3>Portfolio</h3>
+            <a href="">
+               <i class="fas fa-envelope"></i> jorizivannvillanueva@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/joriz-ivann-villanueva-248b41207">
+               <i class="fab fa-linkedin"></i> linkedin
+            </a>
+            <a href="https://github.com/pwned11">
+            <i class="fab fa-github"></i> github
+            </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="https://www.facebook.com/Horisyo/">
+               <i class="fab fa-facebook-f"></i> facebook
+            </a>
+            <a href="https://twitter.com/horisyo_">
+               <i class="fab fa-twitter"></i> twitter
+            </a>
+            <a href="https://www.instagram.com/horisyo_/">
+               <i class="fab fa-instagram"></i> instagram
+            </a>
+         </div>
+
+      </div>
+
+      <div class="credit">
+        created by <span>Joriz Ivann Villanueva</span> | © 2022 All Rights Reserved
+      </div>
+   </section>
+
+   <!-- footer section ends -->
+
+   <!-- File link for custom JS  -->
+   <script src="script.js"></script>
+
+  </body>
+</html>
