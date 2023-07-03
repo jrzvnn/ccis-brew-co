@@ -3,7 +3,7 @@
 ![jrzvnn-nvim](./scrots/screenshot_dark.png)
 ![jrzvnn-nvim](./scrots/screenshot_light.png)
 
-This repository contains the code for a coffee shop website that was designed as an entry in a web design contest hosted by the CCIS IBITS organization and won 2nd place. The project was built using only HTML, CSS, and JavaScript as the main rule of the contest. 
+This repository contains the code for a coffee shop website that was designed as an entry in a web design contest hosted by the CCIS IBITS organization and won 2nd place. The project was built using vanila HTML, CSS, and JavaScript as the main rule of the contest. 
 
 ## Features
 * Responsive design that looks great on any device
